@@ -1,0 +1,18 @@
+source 'https://github.com/cocoapods/specs.git'
+
+#命令写在这里也是等效， 已移动到Podfile_local中，避免git提交冲突等场景
+#plugin 'cocoapods-imy-bin'
+#use_binaries!
+
+target 'Demo' do
+  pod 'FMDB'
+  pod 'LKDBHelper'
+
+  pod 'YYModel',:podspec => 'https://github.com/ibireme/YYModel/raw/master/YYModel.podspec'
+  
+  pod 'YYCache',:podspec => 'https://github.com/ibireme/YYCache/raw/master/YYCache.podspec'
+  
+  pod 'AFNetworking',:podspec => 'https://github.com/AFNetworking/AFNetworking/raw/master/AFNetworking.podspec'
+  
+  pod 'SDWebImage',:podspec => 'https://github.com/SDWebImage/SDWebImage/raw/master/SDWebImage.podspec'
+  end

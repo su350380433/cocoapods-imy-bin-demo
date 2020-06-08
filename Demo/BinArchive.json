@@ -1,0 +1,13 @@
+{
+    "archive-white-pod-list" : [
+        "Demo",
+        "YYCache"
+    ],
+    "ignore-git-list": [
+        "git@gitlab.xxx.com:Github-iOS"
+    ],
+    "ignore-http-list": [
+        "https://gitlab.xxx.com/Github-iOS"
+    ]
+}
+   

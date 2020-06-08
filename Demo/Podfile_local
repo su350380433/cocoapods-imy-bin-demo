@@ -1,0 +1,14 @@
+#这里的写法，搬到podfile 一样等同生效
+#target 'Demo' do 不同的项目注意修改下Seeyou的值
+
+plugin 'cocoapods-imy-bin'
+use_binaries!
+
+#需要替换Podfile里面的组件才写到这里
+#在这里面的所写的组件库依赖，默认切换为【源码】依赖
+target 'Demo' do
+
+pod 'YYModel', :path => '../YYModel'
+#pod 'YYCache',:podspec => 'https://github.com/ibireme/YYCache/raw/master/YYCache.podspec'
+
+end
