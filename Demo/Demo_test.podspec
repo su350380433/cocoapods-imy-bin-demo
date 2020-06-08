@@ -9,8 +9,12 @@ Pod::Spec.new do |s|
 	s.homepage = 'https://github.com/meiyoudev/IMYPublic'
 	s.authors = { 'suliangjin' => 'suliangjin@xiaoyouzi.com' }
 	s.source = { :git => 'git@github.com:su350380433/cocaopods-imy-bin.git', :branch => 'dev' }
+        s.requires_arc = true
+        s.ios.deployment_target = '9.0'
+        s.source_files = 'Source/**/*.{h,m,c}'
+        s.public_header_files = 'Source/**/*.h'
 
-   
+
         s.dependency 'YYModel'
         s.dependency 'YYCache'
         s.dependency 'AFNetworking'

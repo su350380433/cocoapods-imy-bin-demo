@@ -9,6 +9,5 @@ use_binaries!
 target 'Demo' do
 
 pod 'YYModel', :path => '../YYModel'
-#pod 'YYCache',:podspec => 'https://github.com/ibireme/YYCache/raw/master/YYCache.podspec'
 
 end

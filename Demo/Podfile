@@ -12,7 +12,4 @@ target 'Demo' do
   
   pod 'YYCache',:podspec => 'https://github.com/ibireme/YYCache/raw/master/YYCache.podspec'
   
-  pod 'AFNetworking',:podspec => 'https://github.com/AFNetworking/AFNetworking/raw/master/AFNetworking.podspec'
-  
-  pod 'SDWebImage',:podspec => 'https://github.com/SDWebImage/SDWebImage/raw/master/SDWebImage.podspec'
   end
