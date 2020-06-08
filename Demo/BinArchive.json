@@ -1,4 +1,5 @@
 {
+    "//":"archive-white-pod-list  制作二进制白名单"
     "archive-white-pod-list" : [
         "Demo",
         "YYCache"
