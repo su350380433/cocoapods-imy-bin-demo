@@ -2,7 +2,9 @@
 
 ### 1.创建一个存放二进制私有源仓库
 
-如：https://github.com/su350380433/example_spec_dev，并添加到本地仓库中
+如：https://github.com/su350380433/example_spec_dev
+
+并添加到本地仓库中
 
 ``` shell
 pod repo add example_spec_bin_dev git@github.com:su350380433/example_spec_bin_dev.git
@@ -92,3 +94,4 @@ curl http://localhost:8080/frameworks/PodA/0.2.4/zip > PodA.framework.zip
 curl -X 'DELETE' http://localhost:8080/frameworks/PodA/0.2.4 -O -J
 ```
 
+[binary-server](https://github.com/su350380433/binary-server)
