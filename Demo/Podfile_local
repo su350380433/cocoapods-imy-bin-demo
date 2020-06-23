@@ -1,5 +1,5 @@
 #这里的写法，搬到podfile 一样等同生效
-#target 'Demo' do 不同的项目注意修改下Seeyou的值
+#target 'Demo' do 不同的项目注意修改下Demo的值
 
 plugin 'cocoapods-imy-bin'
 use_binaries!
