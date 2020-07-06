@@ -10,7 +10,6 @@
 pod repo add example_spec_bin_dev git@github.com:su350380433/example_spec_bin_dev.git
 ```
 
-ps：cocopods 目前支持到1.8.4版本，1.9 `pod bin auto`命令需要适配 ，其他不受影响
 ### 2.安装mongodb
 
 ```shell
