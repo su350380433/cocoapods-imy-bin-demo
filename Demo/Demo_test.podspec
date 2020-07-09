@@ -17,8 +17,6 @@ Pod::Spec.new do |s|
 
         s.dependency 'YYModel'
         s.dependency 'YYCache'
-        s.dependency 'AFNetworking'
-        s.dependency 'SDWebImage'
         s.dependency 'FMDB'
         s.dependency 'LKDBHelper'
 
