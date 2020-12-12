@@ -36,6 +36,8 @@ sudo mkdir -p /data/db
 sudo mongod
 ```
 
+新版macOS问题，参考这里 [CI打包机 - 升级最新MacOS历险记](https://juejin.cn/editor/drafts/6894076610228518926)
+
 ### 4. 启动静态资源服务器
 
 ```shell
